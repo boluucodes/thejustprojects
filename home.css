@@ -1,0 +1,32 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   max-width: 100%;
+}
+#click{
+    background-color: blue;color: white;
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 1.5%;
+    border: none;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+} 
+.body{
+    width: 40%;
+}
+h1,h2{
+    padding: 1%;
+}
+ol{
+    padding: 1%;
+}
+p{
+    padding: 1%;
+}
