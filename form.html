@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Halant:wght@600&family=Manrope:wght@400;600&family=PT+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="form.css">
+
+</head>
+<body>
+    <div class="block">
+     <form action="" method="post">
+       <h2>Contact Form</h2>
+        <div class="content">
+            <div class="input-row" id="name">
+                <div class="form-label">
+                    <label for="Name">Name:</label>
+                </div>
+               <div class="form-input">
+                <input type="text" placeholder="Enter your name" name="name" required>
+               </div>
+            </div>
+            <div class="input-row" id="user">
+                <div class="form-label">
+                    <label for="Username">Username:</label>
+                </div>
+                <div class="form-input">
+                    <input type="text" placeholder="Enter your Username" name="name" required>
+                </div>
+            </div>
+            <div class="input-row" id="pass">
+                <div class="form-label">
+                    <label for="Password">Password:</label>
+                </div>
+                <div class="form-input">
+                    <input type="password" placeholder="Enter your Password" name="password" required>
+                </div>
+            </div>
+            <div class="input-row" id="re">
+                <div class="form-label">
+                    <label for="Re-type Password">Re-type Password:</label>
+                </div>
+              <div class="form-input">
+                <input type="password" placeholder="Enter your password" name="re-typepassword" required>
+              </div>
+            </div>
+          
+         <div class="input-row">
+            <div class="form-label">
+                <label for="gender">Gender:</label>
+            </div>
+            <div class="form-input flex">
+                <label for="male">Male</label>
+                <input type="radio">
+                <label for="female">Female:</label>
+                <input type="radio">    
+            </div>
+         </div>
+         <div class="input-row">
+            <div class="form-label">
+                <label for="techie skills">Techie Skills</label>
+            </div>
+            <div class="form-input flex">
+                <label for="HTML">HTML</label>
+                <input type="checkBOX">
+                <label for="CSS">CSS</label>
+                <input type="checkbox">
+                <label for="JAVASCRIPT">JAVASCRIPT</label>
+                <input type="checkbox">
+            </div>
+         </div>
+
+            <div class="input-row" id="phone">
+                <div class="form-label">
+                    <label for="phone">Phone Number:</label>
+                </div>
+                <div class="form-input">
+                    <input type="tel" placeholder="Enter your phone number" name="phone" required>
+                </div>
+            </div>
+            <div class="input-row" id="mail">
+                <div class="form-label">
+                    <label for="email">Email:</label>
+                </div>
+             <div class="form-input">
+                <input type="email" placeholder="Enter your email address" name="email" required>
+             </div>
+            </div>
+            <div class="input-row" id="school">
+                <div class="form-label">
+                    <label for="College">College</label>
+                </div>
+                <div class="form-input">
+                    <input type="text" placeholder="Select a College" name="College" required> 
+                </div>
+            </div>
+            <div class="input-row">
+                <div class="form-label">
+                </div>
+                <div class="form-input">
+                    <button>Submit</button>
+                </div>
+            </div>
+ 
+        </div>
+     </form>
+    </div>
+    
+</body>
+</html>
